@@ -28,6 +28,8 @@ You would need to change the file location of eval-server.linux-x86_64 and nginx
 
 Run the main.yml playbook with all the setup
 
+To test the application, you would have to login into the instance after reboot and run the nginx service as root. 
+
 # Application
 
 The application is running on the public IP 34.204.68.188 and is accessible on port 80.
