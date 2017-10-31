@@ -17,3 +17,6 @@
     - copy:
         src: /Users/harmansingh/nginx.con
         dest: /etc/nginx/nginx.conf
+    - service:
+        name: nginx
+        state: restarted
