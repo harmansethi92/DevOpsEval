@@ -25,3 +25,5 @@
                 regexp=''
                 insertafter=EOF
                 line='./home/ec2-user/eval-server.linux-x86_64'
+    - name : reboot
+      shell : reboot
