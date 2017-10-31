@@ -22,6 +22,8 @@ Launch an EC2 instance using AWS configure with the Access and Private key or ru
 
 Using the Public IP of the launched instance add it to the /etc/ansible/hosts file like I have done for ansiblehosts.txt for ssh access.
 
+You would need to change the file location of eval-server.linux-x86_64 and nginx.con in the main.yml as your source.
+
 # Execution
 
 Run the main.yml playbook with all the setup
