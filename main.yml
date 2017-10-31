@@ -10,3 +10,10 @@
     - service:
         name: nginx
         state: started
+    - copy:
+        src: /Users/harmansingh/DevOpsEval/bin/eval-server.linux-x86_64
+        dest: /home/ec2-user/
+        mode: 0777
+    - copy:
+        src: /Users/harmansingh/nginx.con
+        dest: /etc/nginx/nginx.conf
